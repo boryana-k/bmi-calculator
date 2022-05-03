@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://bmi-calculator-demo.netlify.app/">
+    <a href="https://bmi-calculator-demo.netlify.app/" target="_blank">
       Demo
     </a>
   </h3>
