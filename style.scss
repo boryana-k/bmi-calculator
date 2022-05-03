@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+$cardBgcolor: radial-gradient(circle, rgba(190,187,238,1) 0%, #88838b 50%, rgb(153, 188, 226) 100%);
+$inputBgcolor: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.11810661764705888) 100%);
+$bntBgcolor: linear-gradient(0deg, rgba(136,131,139,0.15172006302521013) 0%, rgba(255,255,255,1) 91%);
+$inputStyle: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+$fontStyle: 'Poppins', sans-serif;
+$radius: 33px;
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    justify-content: center;
+    background: $cardBgcolor;
+    margin-top: 3px;
+    
+    .card-header {
+        font-family: $fontStyle;
+        font-style: normal;
+        font-size: 34px;
+    }
+
+    .card-body {
+
+        form {
+
+            .physical-indicator {
+                font-family: $fontStyle;
+                font-style: italic;
+                font-size: 20px;
+                font-weight: 700;
+                margin-top: 5px;
+            }
+            
+            .form-control {
+                background: $inputBgcolor;
+                box-shadow: $inputStyle;
+                border-radius: $radius;
+            }
+
+            .form-control::placeholder{
+                font-family: $fontStyle;
+            }
+
+            .btn{
+                font-family: $fontStyle;
+                font-size: 24px;
+                font-style: italic;
+                font-weight: 300;
+                color: rgb(69, 62, 75);
+                background: $bntBgcolor;
+                border-radius: $radius;
+                border-color: #fff;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            .btn:hover{
+                box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.25);
+            }
+        
+        }
+    }
+
+    .card-footer {
+        label {
+            font-family: $fontStyle;
+        }
+
+        h2 {
+            font-family: $fontStyle;
+            font-size: 20px bold;
+        }
+
+        h1 {
+            font-family: $fontStyle;
+            font-size: 18px;
+        }
+    }
+}
+
+a {
+    font-family: $fontStyle;
+    font-size: 12px;
+}
+
+
+
+
+
